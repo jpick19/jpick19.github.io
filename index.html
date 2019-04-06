@@ -43,5 +43,27 @@
         <th><a href="https://github.com/jpick19">My Github profile.</a></th>
     </tr>
     </table>
+    <canvas id="myCanvas" width="200" height="200" style="border: 1px solid #000000;"></canvas> <!-- Creates a blank canvas -->
+    
+    <script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.rect(0,0,200,200);
+    ctx.fillStyle = "purple";
+    ctx.fill();
+    </script> <!-- Fills in the blank canvas with the color purple -->
+    
+    
+    <audio controls>
+    <source src="audio/12%20-%20Chain%20Smoker%20(Prod%20by%20Nate%20Fox)%20(DatPiff%20Exclusive).mp3">
+    </audio> <!-- Song called 'Chain Smoker' by Chance the Rapper -->
+    
+    <a href="pdf/Fields%20Report.pdf">Fields Report.</a>
+    
+     <svg width="300" height="200">
+    <polygon points="100,10 40,198 190,78 10,78 160,198" style="fill:cyan;stroke:yellow;stroke-width:5;fill-rule:evenodd;" />
+    </svg> <!-- Creates a star with the colors cyan and yellow -->
+    
 </body>
 </html>
