@@ -63,22 +63,3 @@ th {
 {
     border: 1px solid white;
 }
-
-<style>
-
-a:link {
-    color: deepskyblue;
-    background-color: transparent;
-}
-
-a:visited {
-    color: #efff11;
-    background-color: transparent;
-}
-
-a:hover {
-    color: azure;
-    background-color: transparent;
-}
-
-</style>
